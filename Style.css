@@ -98,9 +98,12 @@ main p {
     }
 
 .content {
-        width: 100%;
-        display: flex;
-        background-color: #2b2b2c;    
+    flex: 4;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2b2b2c;
+    justify-content: center;       
     }
     
 aside h2 a{
