@@ -105,6 +105,19 @@ main p {
     background-color: #2b2b2c;
     justify-content: center;       
     }
+
+.card {
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+}
+
+.card h2 {
+    text-align: center;
+    padding: 20px ;
+}
+
     
 aside h2 a{
         color: white;
@@ -112,20 +125,12 @@ aside h2 a{
         font-weight: bold;
         text-transform: capitalize;
     }
-    
-div img{
-        width: 200px;
-        height: 200px;        
-    }
-    
-    
-.content img{
-    display:flex;
-        margin: 10px auto;
-        max-width: 150px;
-        position:relative;
-    }
-    
+
+.card img {
+    width:100%
+}
+ 
+   
     
 .Horiseon-Social-Solutions {
         margin-bottom: 20px;
@@ -172,9 +177,10 @@ footer ul li a:hover{
             background-color: #a3c7ee;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     main,
-    nav {
+    nav,
+    aside {
     flex-direction: column;
     }
 }
