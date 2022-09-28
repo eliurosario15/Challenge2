@@ -140,31 +140,38 @@ div img{
             color: #ffffff;
         }
 
-        footer {
+footer {
             background-color: #2b2b2c;
             color: white;
             font-style:inherit;
             font-weight: bold;
-        }
+}
         
-        footer h3{
+footer h3{
             text-align: center;
             color: white;
-        }
+}
         
-        footer ul li{
+footer ul li{
             display: inline-block;
             text-align: center;
             padding: 15px 15px
-        }
+}
         
-        footer ul li a{
+footer ul li a{
             color: white;
             text-decoration: solid;
             font-weight: bold;
-        }
+}
         
-        footer ul li a:hover{
+footer ul li a:hover{
             color: #698bac;
             background-color: #a3c7ee;
-        }
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+    flex-direction: column;
+    }
+}
